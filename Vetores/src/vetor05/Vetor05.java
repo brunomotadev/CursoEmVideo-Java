@@ -1,15 +1,16 @@
-package vetor03;
+package vetor05;
 
 import java.util.Arrays;
 
-public class Vetor03 {
+public class Vetor05 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		double v[]= {3.5, 2.75, 9, -4.5};
-		Arrays.sort(v);//coloca o vetor em ordem
-		for(double valor: v) {
+		int v[] = new int[20];
+		Arrays.fill(v, 0);//preenche todas as posições do vetor.
+		
+		for(int valor: v) {
 			System.out.print(valor + " ");
 		}
 	}
