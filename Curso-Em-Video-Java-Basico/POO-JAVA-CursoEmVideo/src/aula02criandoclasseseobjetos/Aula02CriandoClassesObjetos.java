@@ -6,9 +6,9 @@ public class Aula02CriandoClassesObjetos {
 		
 		Caneta c1 = new Caneta();//instanciada
 		c1.cor = "Azul";
-		c1.ponta = 0.5f;
-		c1.tampar(); //referencia a atributo
+		c1.ponta = 0.5f;//referencia a atributo
 		
+		c1.tampar(); 
 		c1.status(); //referencia a metodo
 		c1.rabiscar();
 		System.out.println();
